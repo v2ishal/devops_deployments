@@ -17,7 +17,7 @@ resource "aws_instance" "aws_ec2" {
    instance_type = "t2.micro"
    key_name      = aws_key_pair.vdev-key.key_name
    tags{
-        Name="alpha02 instance"
+        Name="Dev01"
    }
 }
 
